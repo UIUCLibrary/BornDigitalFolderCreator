@@ -11,10 +11,14 @@ Install
 -------
 
 1) Download the latest source release from the releases tab.
+
+3) Uncompress it.
+
 2) Type the following command in the terminal:
 
-    Mac and Linux: `python3 <zip/tar.gz file> install`
-    Windows: `py -3 <zip/tar.gz file> install`
+    Mac and Linux: `python3 setup.py install`
+    
+    Windows: `py -3 setup.py install`
     
 
 
