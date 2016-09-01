@@ -1,7 +1,8 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 import sys
 from setuptools.command.test import test as TestCommand
+
 class PyTest(TestCommand):
     user_options = [('pytest-args=', 'a', "Arguments to pass to py.test")]
 
@@ -20,15 +21,14 @@ setup(
     name='CreateFolders',
     version='0.0.2',
     packages=['BDCreateFolders', "tests"],
-    # packages=['BDCreateFolders', "tests"],
     entry_points={'console_scripts': ['createfolders = BDCreateFolders.__main__:main']},
     test_suite="tests",
     tests_require=['pytest'],
-    cmdclass = {'test': PyTest},
+    cmdclass={'test': PyTest},
     url='',
     license='',
     author='Henry Borchers',
-    author_email='',
+    author_email='hborcher@illinois.edu',
     description='Generates folders based on a CSV exported from MEDUSA',
     zip_safe=False
 )
