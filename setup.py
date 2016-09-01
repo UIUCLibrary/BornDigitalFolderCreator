@@ -25,7 +25,7 @@ setup(
     test_suite="tests",
     tests_require=['pytest'],
     cmdclass={'test': PyTest},
-    url='',
+    url='https://github.com/UIUCLibrary/BornDigitalFolderCreator',
     license='',
     author='Henry Borchers',
     author_email='hborcher@illinois.edu',
