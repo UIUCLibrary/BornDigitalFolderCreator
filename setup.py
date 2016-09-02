@@ -10,6 +10,6 @@ setup(
     url='https://github.com/UIUCLibrary/BornDigitalFolderCreator',
     author='Henry Borchers',
     author_email='hborcher@illinois.edu',
-    # entry_points={'console_scripts': ['createfolders = BDCreateFolders.__main__:main']},
+    entry_points={'console_scripts': ['createfolders = BDCreateFolders.__main__:main']},
     license='',
 )
