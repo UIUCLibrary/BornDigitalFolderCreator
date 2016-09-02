@@ -28,7 +28,9 @@ Install
 
 2) Type the following command in the terminal:
 
-    Mac and Linux: `python3 setup.py install`
+* Mac and Linux: 
+    `python3 setup.py install`
     
-    Windows: `py -3 setup.py install`
+* Windows: 
+   `py -3 setup.py install`
     
