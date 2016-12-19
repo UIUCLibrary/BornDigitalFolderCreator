@@ -33,4 +33,11 @@ Install
     
 * Windows: 
    `py -3 setup.py install`
-    
+  
+Project Developers:
+-------------------
+* [Henry Borchers](hborcher@illinois.edu)
+
+Stakeholders:
+-------------
+* Tracy Popp
